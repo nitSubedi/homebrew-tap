@@ -1,27 +1,27 @@
 class Muster < Formula
   desc "Every machine you own, one AI endpoint (OpenAI/Ollama-compatible router)"
   homepage "https://github.com/nitSubedi/muster"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/nitSubedi/muster/releases/download/v0.2.0/muster-darwin-arm64"
-      sha256 "d2372bfc3b10a5a8f962abae14851ceb10839179a4493e29e6da6d9190f0461e"
+      url "https://github.com/nitSubedi/muster/releases/download/v0.2.1/muster-darwin-arm64"
+      sha256 "1b20237bb4d27baf98aec2f1815518ad117bf3b74142272e78e7717b579d0a66"
     end
     on_intel do
-      url "https://github.com/nitSubedi/muster/releases/download/v0.2.0/muster-darwin-amd64"
-      sha256 "3d9621f5145e331fc697fa59636a1f4213181f323ce9470ebf1411d24982e7c1"
+      url "https://github.com/nitSubedi/muster/releases/download/v0.2.1/muster-darwin-amd64"
+      sha256 "48472f0291ee495fb71d59db6e359da693b7fe9c20e6b0e69f44db69b15fd5bb"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/nitSubedi/muster/releases/download/v0.2.0/muster-linux-arm64"
-      sha256 "c3991c21ce8a1b388fd5050c5b9f5a5a3f9fc8dbb6ef384113bbbbe697f327d1"
+      url "https://github.com/nitSubedi/muster/releases/download/v0.2.1/muster-linux-arm64"
+      sha256 "977187e4db071986b1a16fff488a45846a90217b3936feb880428ab61a6aee3e"
     end
     on_intel do
-      url "https://github.com/nitSubedi/muster/releases/download/v0.2.0/muster-linux-amd64"
-      sha256 "3353bb817b59f38b9fafe7f6a4baef09f6ede3419af286ffa8c0ed54089e7227"
+      url "https://github.com/nitSubedi/muster/releases/download/v0.2.1/muster-linux-amd64"
+      sha256 "c472c032a3e56da27bf2b2d7cbb9270e75888497e97faf48b299e3b5bf2586b1"
     end
   end
 
